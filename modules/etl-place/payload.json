@@ -1,0 +1,263 @@
+{
+    "operationName": "StaysMapS2Search",
+    "variables": {
+        "staysMapSearchRequestV2": {
+            "requestedPageType": "STAYS_SEARCH",
+            "metadataOnly": false,
+            "source": "structured_search_input_header",
+            "searchType": "user_map_move",
+            "treatmentFlags": [
+                "decompose_stays_search_m2_treatment",
+                "flex_destinations_june_2021_launch_web_treatment",
+                "new_filter_bar_v2_fm_header",
+                "new_filter_bar_v2_and_fm_treatment",
+                "merch_header_breakpoint_expansion_web",
+                "flexible_dates_12_month_lead_time",
+                "storefronts_nov23_2021_homepage_web_treatment",
+                "lazy_load_flex_search_map_compact",
+                "lazy_load_flex_search_map_wide",
+                "im_flexible_may_2022_treatment",
+                "search_add_category_bar_ui_ranking_web",
+                "feed_map_decouple_m11_treatment",
+                "feed_map_decouple_homepage_treatment",
+                "flexible_dates_options_extend_one_three_seven_days",
+                "super_date_flexibility",
+                "micro_flex_improvements",
+                "micro_flex_show_by_default",
+                "search_input_placeholder_phrases",
+                "pets_fee_treatment"
+            ],
+            "rawParams": [
+                {
+                    "filterName": "cdnCacheSafe",
+                    "filterValues": [
+                        "false"
+                    ]
+                },
+                {
+                    "filterName": "channel",
+                    "filterValues": [
+                        "EXPLORE"
+                    ]
+                },
+                {
+                    "filterName": "checkin",
+                    "filterValues": [
+                        "2023-06-20"
+                    ]
+                },
+                {
+                    "filterName": "checkout",
+                    "filterValues": [
+                        "2023-06-22"
+                    ]
+                },
+                {
+                    "filterName": "datePickerType",
+                    "filterValues": [
+                        "calendar"
+                    ]
+                },
+                {
+                    "filterName": "flexibleTripLengths",
+                    "filterValues": [
+                        "one_week"
+                    ]
+                },
+                {
+                    "filterName": "itemsPerGrid",
+                    "filterValues": [
+                        "18"
+                    ]
+                },
+                {
+                    "filterName": "monthlyLength",
+                    "filterValues": [
+                        "3"
+                    ]
+                },
+                {
+                    "filterName": "monthlyStartDate",
+                    "filterValues": [
+                        "2023-06-01"
+                    ]
+                },
+                {
+                    "filterName": "neLat",
+                    "filterValues": [
+                        "32.033450015749"
+                    ]
+                },
+                {
+                    "filterName": "neLng",
+                    "filterValues": [
+                        "-116.62598786719633"
+                    ]
+                },
+                {
+                    "filterName": "placeId",
+                    "filterValues": [
+                        "ChIJ9blUH_CO2IARUaZ2thuYYPM"
+                    ]
+                },
+                {
+                    "filterName": "priceFilterInputType",
+                    "filterValues": [
+                        "0"
+                    ]
+                },
+                {
+                    "filterName": "priceFilterNumNights",
+                    "filterValues": [
+                        "2"
+                    ]
+                },
+                {
+                    "filterName": "query",
+                    "filterValues": [
+                        "Ensenada, Mexico"
+                    ]
+                },
+                {
+                    "filterName": "refinementPaths",
+                    "filterValues": [
+                        "/homes"
+                    ]
+                },
+                {
+                    "filterName": "screenSize",
+                    "filterValues": [
+                        "large"
+                    ]
+                },
+                {
+                    "filterName": "searchByMap",
+                    "filterValues": [
+                        "true"
+                    ]
+                },
+                {
+                    "filterName": "swLat",
+                    "filterValues": [
+                        "32.01765930373085"
+                    ]
+                },
+                {
+                    "filterName": "swLng",
+                    "filterValues": [
+                        "-116.63976369269682"
+                    ]
+                },
+                {
+                    "filterName": "tabId",
+                    "filterValues": [
+                        "home_tab"
+                    ]
+                },
+                {
+                    "filterName": "version",
+                    "filterValues": [
+                        "1.8.3"
+                    ]
+                },
+                {
+                    "filterName": "zoomLevel",
+                    "filterValues": [
+                        "16"
+                    ]
+                },
+                {
+                    "filterName": "mapCellTokens",
+                    "filterValues": [
+                        "80d8ee47",
+                        "80d8ee49",
+                        "80d8ee4b",
+                        "80d8efb5",
+                        "80d8efb7",
+                        "80d8efb9",
+                        "80d8efbb",
+                        "80d8efa5",
+                        "80d8efaf",
+                        "80d8efad",
+                        "80d8ee53",
+                        "80d8ee51",
+                        "80d8ee5b",
+                        "80d8ee5d",
+                        "80d8ee43",
+                        "80d8ee69",
+                        "80d8ee6b",
+                        "80d8ee15",
+                        "80d8ee3f",
+                        "80d8ee3d",
+                        "80d8ee3b",
+                        "80d8ee31",
+                        "80d8ee33",
+                        "80d8efcd",
+                        "80d8efcf",
+                        "80d8efd1",
+                        "80d8efd7",
+                        "80d8efd5",
+                        "80d8ee2b",
+                        "80d8ee29",
+                        "80d8ee27",
+                        "80d8ee21",
+                        "80d8ee1f",
+                        "80d8ee1d",
+                        "80d8ee03",
+                        "80d8ee01",
+                        "80d8ee07",
+                        "80d8ee09",
+                        "80d8ee0f",
+                        "80d8ee11",
+                        "80d8ee0d",
+                        "80d8ee73",
+                        "80d8ee71",
+                        "80d8ee7b",
+                        "80d8ee65",
+                        "80d8ee63",
+                        "80d8ee61",
+                        "80d8ee7d",
+                        "80d8ee0b",
+                        "80d8ee05",
+                        "80d8ee1b",
+                        "80d8ee19",
+                        "80d8efd3",
+                        "80d8ee2d",
+                        "80d8ee2f",
+                        "80d8ee25",
+                        "80d8ee23",
+                        "80d8ee17",
+                        "80d8ee13",
+                        "80d8ee6d",
+                        "80d8ee6f",
+                        "80d8ee67",
+                        "80d8ee5f",
+                        "80d8ee59",
+                        "80d8ee57",
+                        "80d8ee55",
+                        "80d8efab",
+                        "80d8efa9",
+                        "80d8efa7",
+                        "80d8efc9",
+                        "80d8efb1",
+                        "80d8efcb",
+                        "80d8efb3",
+                        "80d8ee35",
+                        "80d8ee4d",
+                        "80d8ee37",
+                        "80d8ee4f",
+                        "80d8ee39",
+                        "80d8ee41",
+                        "80d8ee45"
+                    ]
+                }
+            ]
+        }
+    },
+    "extensions": {
+        "persistedQuery": {
+            "version": 1,
+            "sha256Hash": "b5f6d92f5439fa83352f31ea5d928114e153aacc99aae83a04e6d492638a513f"
+        }
+    }
+}
