@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "etl": "node etl",
-    "export": "next export"
+    "etl": "node etl"
   },
   "dependencies": {
     "antd": "^5.5.0",
